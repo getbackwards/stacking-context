@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="64817ac2-2932-4494-bd76-3af64f6a4bf2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/exercise.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/exercise.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mod-css-var-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mod-css-var-js.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -134,16 +132,15 @@
       <updated>1542934191232</updated>
       <workItem from="1542934192420" duration="1504000" />
       <workItem from="1542939104290" duration="1076000" />
-      <workItem from="1543182703086" duration="652000" />
+      <workItem from="1543182703086" duration="1141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3232000" />
+    <option name="totallyTimeSpent" value="3721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="176" y="120" width="1977" height="1211" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24846625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -157,7 +154,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33869526" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33869526" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
