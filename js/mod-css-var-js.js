@@ -12,7 +12,9 @@ const inputs = [].slice.call(document.querySelectorAll(['input', 'select']));
 
 // add eventListener to the inputs
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
-inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+// Below is triggering every time I move the mouse so comment out for now, was used for slider padding value
+// inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
 
 // If the input type is 'color' update the footer color variable otherwise update the padding
 // function handleUpdate() {
@@ -54,7 +56,7 @@ function handleUpdate() {
     //         day = "Saturday";
     // }
 
-    inputs.forEach(input => console.log(input.id));
+    inputs.forEach(input => console.log(input.id, input.value));
 }
 
 handleUpdate();
