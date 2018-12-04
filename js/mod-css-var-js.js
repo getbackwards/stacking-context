@@ -13,9 +13,14 @@ const inputProperties = [];
 
 inputs.forEach(input => inputProperties.push([input.id, input.value]));
 // console.log(inputProperties);
-console.log(inputProperties[0]);
-console.log(inputProperties[0, 0]);
-console.log(inputProperties[0]);
+// console.log(inputProperties[0]);
+// console.log(inputProperties[0, 0]);
+// console.log(inputProperties[0]);
+
+// This works but it's not what i want, prob have to do a forEach and then filter?
+console.log(
+    inputProperties.filter((x, i) => i === 1)
+);
 
 // add eventListener to the inputs
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
