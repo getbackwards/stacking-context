@@ -1,7 +1,5 @@
 'use strict';
 
-// console.log('I work');
-
 // get the footer
 const footer = document.querySelector('footer');
 // console.log(footer);
@@ -9,6 +7,15 @@ const footer = document.querySelector('footer');
 // get the inputs
 const inputs = [].slice.call(document.querySelectorAll(['input', 'select']));
 // console.log(inputs);
+
+// get the input id's
+const inputProperties = [];
+
+inputs.forEach(input => inputProperties.push([input.id, input.value]));
+// console.log(inputProperties);
+console.log(inputProperties[0]);
+console.log(inputProperties[0, 0]);
+console.log(inputProperties[0]);
 
 // add eventListener to the inputs
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
@@ -56,7 +63,22 @@ function handleUpdate() {
     //         day = "Saturday";
     // }
 
-    inputs.forEach(input => console.log(input.id, input.value));
+    // switch (inputs) {
+    //     case 0:
+    //         type = 'color';
+    //         break;
+    //     case 1:
+    //         type = "range";
+    //         break;
+    //     case 2:
+    //         day = "Tuesday";
+    //         break;
+    //     default:
+    //         day = "Wednesday";
+    // }
+
+    // inputs.forEach(input => console.log(input.id, input.value));
+    console.log(inputProperties);
 }
 
 // handleUpdate();
