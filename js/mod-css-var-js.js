@@ -59,4 +59,4 @@ function handleUpdate() {
     inputs.forEach(input => console.log(input.id, input.value));
 }
 
-handleUpdate();
+// handleUpdate();
