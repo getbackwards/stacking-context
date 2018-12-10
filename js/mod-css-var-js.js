@@ -6,39 +6,49 @@ const footer = document.querySelector('footer');
 
 // get the inputs
 const inputs = [].slice.call(document.querySelectorAll(['input', 'select']));
-console.log(`These are the inputs ${inputs}`);
+// Console log below is pretty useless in it's current state
+// console.log(`1. These are the inputs ${inputs}`);
 
 // get the input id's
 const inputProperties = [];
 
 inputs.forEach(input => inputProperties.push([input.id, input.value]));
-// console.log(inputProperties);
-// console.log(inputProperties[0]);
-// console.log(inputProperties[0, 0]);
-// console.log(inputProperties[0]);
 
-console.log(`These are the input properties ${inputProperties}`);
+// Don't think I need the below ATM
+// console.log(`1. These are the input properties ${inputProperties}`);
 
-console.log(`These are the input ids ${inputProperties.id}`);
+for (let i = 0; i < inputProperties.length; i ++) {
+    let n = 1;
+    console.log(`${i + n}. These are the input ids ${inputProperties[i][0]}`);
+    let j = i + n;
+    console.log(`${j + n}. These are the input values ${inputProperties[i][1]}`);
+    // Below ain't working properly but counter number so not that important ATM
+    n + j;
+}
 
 // This works but it's not what i want, prob have to do a forEach and then filter?
-console.log(
-    `Input properties filter: ${inputProperties.filter((x, i) => i === 1)}`
-);
+// Yeah nice trick but don't think I really want this commenting out for now
+// https://stackoverflow.com/questions/48129569/how-to-extract-every-second-value-from-array
+// console.log(
+//     `Input properties filter: ${inputProperties.filter((x, i) => i === 1)}`
+// );
 
 // inputs.forEach(input => inputProperties.filter((x, i) => i === 1));
 
 // trying to do the filter from above with a value  10/12/18
 inputs.forEach(input => inputProperties.filter((x, i) => i === 1));
 
-const inputValues = [];
-inputs.forEach(input => inputValues.push(input.value));
-console.log(`These are the input values: ${inputValues}`);
+// Currently don't think I need the below stuff
+// const inputValues = [];
+// inputs.forEach(input => inputValues.push(input.value));
+// console.log(`4. These are the input values: ${inputValues}`);
 
+// Currently don't think I need the below stuff
+// const inputIds = [];
+// inputs.forEach(input => inputIds.push(input.id));
 
-const inputIds = [];
-inputs.forEach(input => inputIds.push(input.id));
-console.log(`These are the input id's: ${inputIds}`);  // was up to here
+// Below works but am trying to use the inputProperties array, currently on line 22
+// console.log(`5. These are the input id's: ${inputIds}`);  // was up to here
 
 // add eventListener to the inputs
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
