@@ -15,15 +15,18 @@ const inputProperties = [];
 inputs.forEach(input => inputProperties.push([input.id, input.value]));
 
 // Don't think I need the below ATM
-// console.log(`1. These are the input properties ${inputProperties}`);
+console.log(`1. These are the input properties ${inputProperties}`);
+console.log(inputProperties.length);
 
 for (let i = 0; i < inputProperties.length; i ++) {
     let n = 1;
-    console.log(`${i + n}. These are the input ids ${inputProperties[i][0]}`);
-    let j = i + n;
-    console.log(`${j + n}. These are the input values ${inputProperties[i][1]}`);
+    console.log(`${i + n}. Input id and value ${i + n} is: ${inputProperties[i][0]}, ${inputProperties[i][1]}`);
+    // let j = i + n;
+    // console.log(`${j + n}. These are the input values ${inputProperties[i][1]}`);
     // Below ain't working properly but counter number so not that important ATM
-    n + j;
+    // n + j;
+    // j++;
+   //  i++;
 }
 
 // This works but it's not what i want, prob have to do a forEach and then filter?
@@ -119,3 +122,29 @@ function handleUpdate() {
 // if () {
 //     console.log('Now we are getting somewhere.');
 // }
+
+var myObject = new Map();
+myObject.set('z', 1);
+myObject.set('@', 2);
+myObject.set('b', 3);
+for (var [key, value] of myObject) {
+  console.log(key, value);
+}
+
+console.log(new Map(inputProperties));
+
+let inputPropertiesMap = new Map(inputProperties);
+
+// Below works,not quite what I want though
+// for (let [key, value] of inputPropertiesMap) {
+//  console.log(key, value);
+// }
+
+var colors = ['red', 'green', 'blue'];
+for (var i = 0; i < inputPropertiesMap.length; i++) {
+  console.log("This is " + inputPropertiesMap[i]);
+}
+
+for (let [key, value] of inputPropertiesMap) {
+  console.log(key, value);
+}
