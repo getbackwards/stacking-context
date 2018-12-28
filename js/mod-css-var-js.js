@@ -78,9 +78,9 @@ function handleUpdate() {
     //         day = "Saturday";
     // }
 
-    switch (inputs) {
-        case 0:
-        this.type === 'color';
+    switch (inputs.type) {
+        case 'color':
+        // this.type = 'color';
             footer.style.setProperty('--footer-color', this.value);
         break;
     //     case 1:
@@ -90,7 +90,7 @@ function handleUpdate() {
     //         day = "Tuesday";
     //         break;
         default:
-        day = "Wednesday";
+        console.log("Your code ain't working.");
     }
 
     // inputs.forEach(input => console.log(input.id, input.value));
