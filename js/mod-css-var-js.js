@@ -7,7 +7,7 @@ const footer = document.querySelector('footer');
 // get the inputs
 const inputs = [].slice.call(document.querySelectorAll(['input', 'select']));
 // Console log below is pretty useless in it's current state
-console.log(`1. These are the inputs ${inputs}`);
+// console.log(`1. These are the inputs ${inputs}`);
 
 // get the input id's
 const inputProperties = [];
