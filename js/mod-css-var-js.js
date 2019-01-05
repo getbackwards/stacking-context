@@ -15,13 +15,18 @@ const inputProperties = [];
 inputs.forEach(input => inputProperties.push([input.id, input.value]));
 
 // Don't think I need the below ATM
-// console.log(`1. These are the input properties ${inputProperties}`);
-// console.log(inputProperties.length);
+console.log(`1. These are the input properties ${inputProperties}`);
+console.log(inputProperties.length);
 
 for (let i = 0; i < inputProperties.length; i ++) {
     let n = 1;
     console.log(`${i + n}. Input id and value ${i + n} is: ${inputProperties[i][0]}, ${inputProperties[i][1]} and the type is ${inputs[i].type}`);
+
+    const inputType = inputs[i].type;
+    // console.log(inputType);
 }
+
+console.log(inputType);
 
 // trying to do the filter from above with a value  10/12/18
 // inputs.forEach(input => inputProperties.filter((x, i) => i === 1));
@@ -30,7 +35,6 @@ for (let i = 0; i < inputProperties.length; i ++) {
 // const inputValues = [];
 // inputs.forEach(input => inputValues.push(input.value));
 // console.log(`4. These are the input values: ${inputValues}`);
-
 
 // add eventListener to the inputs
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
@@ -78,10 +82,20 @@ function handleUpdate() {
     //         day = "Saturday";
     // }
 
+    for (let i = 0; i < inputProperties.length; i ++) {
+        let n = 1;
+        console.log(`${i + n}. Input id and value ${i + n} is: ${inputProperties[i][0]}, ${inputProperties[i][1]} and the type is ${inputs[i].type}`);
+    }
+
+    const inputType = inputs[i].type;
+    console.log(inputType);
+
     switch (inputs.type) {
         case 'color':
         // this.type = 'color';
-            footer.style.setProperty('--footer-color', this.value);
+        case this.type = 'color':
+            // footer.style.setProperty('--footer-color', this.value);
+            console.log('something');
         break;
     //     case 1:
     //         type = "range";

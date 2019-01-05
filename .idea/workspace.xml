@@ -15,23 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51083934">
+    <splitter split-orientation="horizontal" split-proportion="0.1881243">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1230">
-                  <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/mod-css-var-js.js">
+            <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+                <state relative-caret-position="351">
+                  <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -40,20 +31,26 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/exercise.css">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/mod-css-var-js.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1350">
-                  <caret line="90" selection-start-line="90" selection-end-line="90" />
+                <state relative-caret-position="156">
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
+                  <folding>
+                    <element signature="e#808#868#0" />
+                    <element signature="e#941#988#0" />
+                    <element signature="e#1251#1359#0" />
+                    <element signature="e#1534#1762#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/exercise.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="39" column="48" lean-forward="true" selection-start-line="76" selection-end-line="77" />
+                <state relative-caret-position="1530">
+                  <caret line="90" selection-start-line="90" selection-end-line="90" />
                 </state>
               </provider>
             </entry>
@@ -81,10 +78,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="106" />
-    <option name="width" value="2051" />
-    <option name="height" value="1112" />
+    <option name="x" value="28" />
+    <option name="y" value="45" />
+    <option name="width" value="1823" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -92,30 +89,7 @@
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="stacking-context" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stacking-context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stacking-context" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stacking-context" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stacking-context" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stacking-context" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -154,10 +128,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19438000" />
+    <option name="totallyTimeSpent" value="20101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="106" width="2051" height="1112" extended-state="0" />
+    <frame x="28" y="45" width="1823" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.191133" />
@@ -172,7 +146,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29215688" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26174498" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -192,22 +166,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/exercise.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
+        <state relative-caret-position="1530">
           <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="76" selection-end-line="77" />
+        <state relative-caret-position="351">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mod-css-var-js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+        <state relative-caret-position="156">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#808#868#0" />
+            <element signature="e#941#988#0" />
+            <element signature="e#1251#1359#0" />
+            <element signature="e#1534#1762#0" />
+          </folding>
         </state>
       </provider>
     </entry>
