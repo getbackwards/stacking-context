@@ -12,21 +12,18 @@ const inputs = [].slice.call(document.querySelectorAll(['input', 'select']));
 // get the input id's
 const inputProperties = [];
 
-inputs.forEach(input => inputProperties.push([input.id, input.value]));
+inputs.forEach(input => inputProperties.push([input.id, input.value, input.type]));
 
 // Don't think I need the below ATM
-console.log(`1. These are the input properties ${inputProperties}`);
+// console.log(`1. These are the input properties ${inputProperties}`);
 console.log(inputProperties.length);
 
 for (let i = 0; i < inputProperties.length; i ++) {
     let n = 1;
-    console.log(`${i + n}. Input id and value ${i + n} is: ${inputProperties[i][0]}, ${inputProperties[i][1]} and the type is ${inputs[i].type}`);
-
-    const inputType = inputs[i].type;
-    // console.log(inputType);
+    // console.log(`${i + n}. Input id and value ${i + n} is: ${inputProperties[i][0]}, ${inputProperties[i][1]} and the type is ${inputProperties[i][2]}`);
 }
 
-console.log(inputType);
+// console.log(`${inputProperties[i][2]}`);
 
 // trying to do the filter from above with a value  10/12/18
 // inputs.forEach(input => inputProperties.filter((x, i) => i === 1));
@@ -50,6 +47,23 @@ if (this.type === 'color') {
             footer.style.setProperty('--palatte-padding-left', this.value + 'px');
     }
 } */
+
+inputProperties.forEach(inputProperty => {
+    console.log(inputProperty[0], inputProperty[1], inputProperty[2]);
+    const inputId = inputProperty[0];
+    const inputType = inputProperty[2];
+
+    if (inputType === 'color' && inputId === 'colorvalue') {
+        console.log('Input type is color');
+        footer.style.setProperty('--footer-color', this.value);
+    } else if (inputType === 'range') {
+        console.log('Input type is range');
+    } else if (inputType === 'select-one') {
+        console.log('Input type is select');
+    } else {
+        console.log("Your action was not accounted for programmatically.");
+    }
+});
 
 // changing handle update to a switch
 function handleUpdate() {
@@ -83,29 +97,69 @@ function handleUpdate() {
     // }
 
     for (let i = 0; i < inputProperties.length; i ++) {
-        let n = 1;
-        console.log(`${i + n}. Input id and value ${i + n} is: ${inputProperties[i][0]}, ${inputProperties[i][1]} and the type is ${inputs[i].type}`);
+        // let n = 1;
+        // console.log(`${i + n}. Input id and value ${i + n} is: ${inputProperties[i][0]}, ${inputProperties[i][1]} and the type is ${inputs[i].type}`);
+        // if (this.type === 'color') {
+        //     // console.log('keep going');
+        //     footer.style.setProperty('--footer-color', this.value);
+        // } else {
+        //     console.log("Your code ain't working.");
+        // }
     }
 
-    const inputType = inputs[i].type;
-    console.log(inputType);
+    inputProperties.forEach(inputProperty => {
+        // console.log(inputProperty[0], inputProperty[1], inputProperty[2]);
+        const inputType = inputProperty[2];
 
-    switch (inputs.type) {
-        case 'color':
-        // this.type = 'color';
-        case this.type = 'color':
-            // footer.style.setProperty('--footer-color', this.value);
-            console.log('something');
-        break;
-    //     case 1:
-    //         type = "range";
-    //         break;
-    //     case 2:
-    //         day = "Tuesday";
-    //         break;
-        default:
-        console.log("Your code ain't working.");
-    }
+        if (inputType === 'color') {
+            // console.log('keep going');
+            footer.style.setProperty('--footer-color', this.value);
+        } else {
+            // console.log("Your code ain't working.");
+        }
+
+    });
+
+    // for (let i = 0; i < inputProperties.length; i ++) {
+    //     // let n = 1;
+    //     // console.log(`${i + n}. Input id and value ${i + n} is: ${inputProperties[i][0]}, ${inputProperties[i][1]} and the type is ${inputs[i].type}`);
+    //
+    //     switch (inputs[i].type) {
+    //         // case 'color':
+    //         case this.type = 'color':
+    //             footer.style.setProperty('--footer-color', this.value);
+    //             console.log('something');
+    //             break;
+    //         //     case 1:
+    //         //         type = "range";
+    //         //         break;
+    //         //     case 2:
+    //         //         day = "Tuesday";
+    //         //         break;
+    //         default:
+    //             console.log("Your code ain't working.");
+    //     }
+    // }
+
+    // const inputType = inputs[i].type;
+    // console.log(inputType);
+
+    // switch (inputs.type) {
+    //     case 'color':
+    //     // this.type = 'color';
+    //     case this.type = 'color':
+    //         // footer.style.setProperty('--footer-color', this.value);
+    //         console.log('something');
+    //     break;
+    // //     case 1:
+    // //         type = "range";
+    // //         break;
+    // //     case 2:
+    // //         day = "Tuesday";
+    // //         break;
+    //     default:
+    //     console.log("Your code ain't working.");
+    // }
 
     // inputs.forEach(input => console.log(input.id, input.value));
     // console.log(inputProperties);
