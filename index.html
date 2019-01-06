@@ -30,36 +30,36 @@
                 <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context -->
 
                 <div id="div1">
-                    <h1>Division Element #1</h1>
+                    <h1>div #1</h1>
                     <code>position: relative;<br/>
                         z-index: 5;</code>
                 </div>
 
                 <div id="div2">
-                    <h1>Division Element #2</h1>
+                    <h1>div #2</h1>
                     <code>position: relative;<br/>
                         z-index: 2;</code>
                 </div>
 
                 <div id="div3">
                     <div id="div4">
-                        <h1>Division Element #4</h1>
+                        <h1>div #4</h1>
                         <code>position: relative;<br/>
                             z-index: 6;</code>
                     </div>
 
-                    <h1>Division Element #3</h1>
+                    <h1>div #3</h1>
                     <code>position: absolute;<br/>
                         z-index: 4;</code>
 
                     <div id="div5">
-                        <h1>Division Element #5</h1>
+                        <h1>div #5</h1>
                         <code>position: relative;<br/>
                             z-index: 1;</code>
                     </div>
 
                     <div id="div6">
-                        <h1>Division Element #6</h1>
+                        <h1>div #6</h1>
                         <code>position: absolute;<br/>
                             z-index: 3;</code>
                     </div>
@@ -68,12 +68,13 @@
                 <footer>Footer</footer>
             </div>
             <div class="controls">
-                <label for="value-one">Adjust some property:</label>
-                <select id="value-one">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
+                <label for="div-one">div #1 z-index:</label>
+                <select id="div-one">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5" selected="selected">5</option>
                 </select>
                <label for="value-two">Adjust some property:</label>
                 <select id="value-two">

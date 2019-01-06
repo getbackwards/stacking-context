@@ -78,9 +78,29 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* ### vars ### */
+:root {
+    /* --- media queries --- */
+    /*  can't have CSS vars in meida queries --medium-breakpoint: 800px; */
+}
+
 section {
+    /*display: grid;*/
+    /*grid-template: auto / 80% 20%;*/
+}
+
+@media only screen and (min-width: 800px) {
+    section {
+        display: grid;
+        grid-template: auto / 80% 20%;
+        background-color: #add8e64a;
+    }
+}
+
+.controls {
     display: grid;
-    grid-template: auto / 80% 20%;
+    align-content: start;
 }
 
 

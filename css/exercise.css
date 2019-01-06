@@ -6,6 +6,10 @@ https://medium.com/@_bengarrison/accessing-and-modifying-css-variables-with-java
   --footer-color: #2cba92;
   /* @reasonCode green */
   --palatte-padding-left: 0;
+
+  /* z-indexs */
+  --z-index-default: 0;
+  --z-index-div-one: 5;
 }
 
 footer {
@@ -51,7 +55,7 @@ h1 {
 }
 
 #div1 {
-  z-index: 5;
+  z-index: var(--z-index-div-one);
   margin-bottom: 190px;
 }
 
