@@ -1,0 +1,76 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @getbackwards Sign out
+0
+0 0 getbackwards/angular-material-app
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+angular-material-app/.gitignore
+3224de8  on 25 Jun 2018
+ getbackwards initial commit
+We found a potential security vulnerability in one of your dependencies.
+Only the owner of this repository can see this message.
+Manage your notification settings or learn more about vulnerability alerts.
+
+
+40 lines (33 sloc)  503 Bytes
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - Webstorm
+.idea/workspace.xml
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
