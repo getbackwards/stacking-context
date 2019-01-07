@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64817ac2-2932-4494-bd76-3af64f6a4bf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,8 +60,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="17" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="29" />
+                <state relative-caret-position="222">
+                  <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="80" />
                 </state>
               </provider>
             </entry>
@@ -86,11 +86,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/exercise.css" />
         <option value="$PROJECT_DIR$/js/mod-css-var-js.js" />
         <option value="$PROJECT_DIR$/js/.gitignore" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -165,12 +165,12 @@
       <workItem from="1543182703086" duration="13325000" />
       <workItem from="1544394782049" duration="3533000" />
       <workItem from="1546891044484" duration="288000" />
-      <workItem from="1546892000024" duration="659000" />
+      <workItem from="1546892000024" duration="1081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39173000" />
+    <option name="totallyTimeSpent" value="39595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="89" width="2112" height="1062" extended-state="0" />
@@ -239,17 +239,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="80" />
         </state>
       </provider>
     </entry>
