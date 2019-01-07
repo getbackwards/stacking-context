@@ -18,7 +18,7 @@ function handleUpdate(e) {
             document.getElementById("div1").style.setProperty('--z-index-div-one', this.value);
             break;
         case 'div-two':
-            document.getElementById("div2").style.setProperty('--z-index-div-one', this.value);
+            document.getElementById("div2").style.setProperty('--z-index-div-two', this.value);
             break;
         default:
             console.log("Your action was not accounted for programmatically.");
