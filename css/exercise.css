@@ -8,8 +8,8 @@ https://medium.com/@_bengarrison/accessing-and-modifying-css-variables-with-java
   --palatte-padding-left: 0;
 
   /* z-indexs */
-  --z-index-default: 0;
   --z-index-div-one: 5;
+  --z-index-div-two: 2;
 }
 
 footer {
