@@ -85,6 +85,11 @@ textarea {
     /*  can't have CSS vars in meida queries --medium-breakpoint: 800px; */
 }
 
+select {
+    height: 24px;
+    margin-bottom: 1.5rem;
+}
+
 section {
     /*display: grid;*/
     /*grid-template: auto / 80% 20%;*/
