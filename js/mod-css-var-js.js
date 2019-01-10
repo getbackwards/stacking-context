@@ -8,12 +8,6 @@ inputs.forEach(input => input.addEventListener('change', handleUpdate));
 
 function handleUpdate(e) {
     switch (this.id) {
-        // case 'colorvalue':
-        //     footer.style.setProperty('--footer-color', this.value);
-        //     break;
-        // case 'margin':
-        //     footer.style.setProperty('--palatte-padding-left', this.value + 'px')
-        //     break;
         case 'div-one':
             document.getElementById("div1").style.setProperty('--z-index-div-one', this.value);
             break;
